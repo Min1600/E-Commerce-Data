@@ -1,0 +1,7 @@
+PSQL="psql -X --username=postgres --dbname=brazillian_ecommerce --no-align --tuples-only -c"
+$PSQL "\copy orders from 'C:/Users/aminh/OneDrive/Desktop/olist_csv/olist_orders_dataset.csv' delimiter ',' csv header"
+$PSQL "\copy order_items from 'C:/Users/aminh/OneDrive/Desktop/olist_csv/olist_order_items_data.csv' delimiter ',' csv header"
+$PSQL "\copy order_payments from 'C:/Users/aminh/OneDrive/Desktop/olist_csv/olist_order_payments_data.csv' delimiter ',' csv header"
+$PSQL "\copy olist_order_reviews from 'C:/Users/aminh/OneDrive/Desktop/olist_csv/olist_order_reviews_data.csv' delimiter ',' csv header"
+$PSQL "\copy olist_products from 'C:/Users/aminh/OneDrive/Desktop/olist_csv/olist_products_data.csv' delimiter ',' csv header"
+$PSQL "\copy olist_customers from 'C:/Users/aminh/OneDrive/Desktop/olist_csv/olist_customers.csv' delimiter ',' csv header"
