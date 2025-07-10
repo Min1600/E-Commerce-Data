@@ -9,7 +9,7 @@ With this data we can find the most popular products in general as well as based
 ### Data Structure Overview
 
 The data chosen from Olist orders database represents sales information, transaction dates, customer reviews, and product information from October 2016 to August 2018. <br />
-
+<br />
 **Sales data**: Each unique record contains product data with an order id that is repeated based on how many products are bought per order and a product id for each unique product. Data contains price and freight value for every product bought.
 
 **Transaction dates**: Every record contains transactional dates and a unique order id with the exact purchase time of each order, the estimated delivery time as well as the actual date the product was received by the customer.
