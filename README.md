@@ -20,7 +20,7 @@ Review data: Reference table that includes order id and customer review score
 Product Category: Reference table that includes product id and product category name.
 
 
-![Data Structure]('/Visualisation.jpg')
+![Data Structure]('img/Visualisation.jpg')
 
 ### Executive Summary
 
