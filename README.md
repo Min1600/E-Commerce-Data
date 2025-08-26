@@ -4,7 +4,7 @@
 
 This project looks into E-Commerce data provided by [Olist store](https://www.olist.com/), the data contains information of over 100k products sold from 2016 to 2018 at marketplaces all over Brazil. Olist is a Brazillian E-Commerce tech startup, that connects small and medium-sized sellers to major marketplaces like Mercado Livre, Amazon, and Walmart. Olist helps the Brazillian marketplace manage their business by offering Enterprise Resource Planning (ERP) software, logistics services and financial tools. In this project I will analyze the ERP data from Olist mainly focusing on sales, delivery time, product performance and reviews.
 
-Objectives
+*Objectives:*
 
 Product Performance: To identify which products are the most purchased and have the highest sales overall as well as based on time of year. This will help Olist be aware of what products have high demand during specific times to better prepare for inventory management, marketing of products and sales.
 
@@ -12,14 +12,15 @@ Review Scores Analysis: Analysing reviews to find trends that affect them to mak
 
 ### Executive Summary
 
-*Olist Growth Rate*
+*Olist Growth Rate:*
+
  Olist sales analysis of product orders from October 2016 to August 2018 shows a huge increase in sales from 2016 to 2017 with a growth of over 14000% as the company's first official release in the main market place was estbalished in 2016. The marketing and overall usefullness of the services provided must have gained a lot of popularity during the short period between October 2016 and December 2016, an analysis with a focus on the marketing of the company is out of the scope of this project but would be useful in the future. From 2017 to 2018 the company had a growth rate in sales of 20%, indicating a more steady growth rate as the company is now established and well known, huge growth spikes are less likely after being tapped into the market. During 2018 the growth rate was stagnant with aa average of -1% growth over an 8 month period, this further indicates that the initial impressive growth was due to a unique service that captured immediately gained a lot of demand and popularity among customers.
 
-*Product Performance*
+*Product Performance:*
 
  Overall, Beleza_saude had the highest amount of sales, contributed to 9.5% of total sales with nearly 10000 products sold. While the most popular product is cama_mesa_banho with over 11000 products sold. Based on season the results are similar with cama mesa banho, Beleza saude and esporte lazer being in the top five throughout the year. All products sold have very small fluctuations in percentage sales contribution over time, showcasing no biases towards time of year.
 
-*Review Scores Analysis*
+*Review Scores Analysis:*
 
  Reviews scores overall are high with a median of 5/5 and mean of 4.1, when analysed by year there are no differences in median and mean scores. There is a moderate correlation between delivery time and customer reviews, indicating that a longer delivery time of order may cause products to be negatively reviewed. Olist provides an estimated delivery time so customers have an idea of when the orders are coming. When comparing a group of 'fast delivery times' (lower quartile of average delivery time) it was found when orders came later than the estimated time, there was a drop in reviews when compared to those that came early/on time despite deliveries being considered 'fast'. Another interesting finding is that in the 'slow delivery times' group, when orders came earlier than estimated the reviews were higher than the group of 'slow delivery times' where orders came later than estimated, despite both being on the 'slower' end of deliveries. This indicates that not only do late deliveries affect reviews but differences in estimated times can affect customer reviews of products. For a more in depth discussion please have a look at the insights deep dive section.
 
