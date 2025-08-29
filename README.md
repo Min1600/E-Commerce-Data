@@ -2,7 +2,7 @@
 
 ## Background and Overview
 
-This project looks into E-Commerce data provided by [Olist store](https://www.olist.com/), the data contains information of over 100k products sold from 2016 to 2018 at marketplaces all over Brazil. Olist is a Brazillian E-Commerce tech startup, that connects small and medium-sized sellers to major marketplaces like Mercado Livre, Amazon, and Walmart. Olist helps the Brazillian marketplace manage their business by offering Enterprise Resource Planning (ERP) software, logistics services and financial tools. In this project I will analyze the ERP data from Olist mainly focusing on sales, delivery time, product performance and reviews.
+This project looks into E-Commerce data provided by [Olist store](https://www.olist.com/), the data contains information of over 100k products sold from 2016 to 2018 at marketplaces all over Brazil. Olist is a Brazillian E-Commerce tech startup that was established in the marketplace in 2016. Olits connects small and medium-sized sellers to major marketplaces like Mercado Livre, Amazon, and Walmart. Olist helps the Brazillian marketplace manage their business by offering Enterprise Resource Planning (ERP) software, logistics services and financial tools. In this project I will analyze the ERP data from their E-Commerce platform mainly focusing on sales, delivery time, product performance and reviews. The main goal is to look at the performance of Olist during its first few years in the marketplace to identify potential strategies and operational practices that contributed to Olist’s early success, which could inform future e-commerce business models.
 
 *Objectives:*
 
@@ -32,13 +32,13 @@ The data chosen from Olist orders database represents sales information, transac
 Data contains price of products and freight values of every product bought. Each unique record contains an order id that is repeated based on how many products are bought per order and a product id to identify each unique product. This data helps us to evaluate how many items are bought per order and which products bring in the most sales. 
 
 ### Transaction dates: 
-Every record contains transactional dates and a unique order id with the exact purchase time of each order, the estimated delivery time as well as the actual date the product was received by the customer. This data can be used to find how long it takes products to reach the customers and how this may effect reviews of the products. The date of the purchase is used to find out what time of the year these products are bought to better understand when certain products are most popular.
+The records contains a unique order id, the purchase time of each order, the estimated delivery time, date the order was recieved by the carier and the date the product was received by the customer. This data can be used to find how long it takes products to reach the customers and how this may effect reviews of the products. The date of purchase is also used to find any trends regarding specific products bought based on time of the year.
 
-### Review data:
-Reference table that includes order id and customer review score. The review scores are an indication of customer satisfaction, these scores can be used to investigate the products that are highly and lowly rated to find ways for improvement. 
+### Customer Reviews:
+Reference table that includes order id and customer review score for each product. The review scores are an indication of customer satisfaction, these scores can be used to investigate the product rating and find correlations for low and high review scores. This allows us to find ways to improve services for better customer satistfaction and retention.
 
 ### Product Category:
- Reference table that includes product id and product category name. Data of product categories to give more meaning and information to products.
+Reference table that includes unique product id and product category name. Contains the category name of the product to give more meaning and information to products.
 
 
 ![Data Structure](img/Visualisation.png)
