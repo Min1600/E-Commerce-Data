@@ -56,6 +56,9 @@ Reference table that includes unique product id and product category name. Conta
 
 Total revenue per month in 2017 shows an increasing trend over time, while in 2018 there is no clear trend. Peak sales in 2018 was in May at R$969,740 and its highest sales growth rate was 14% during March. For 2017 the peak revenue was in November at R$972,294 and the highest sales growth rate was 104% during February. Total sales per month in 2016 was very low with peak sales of R$40,305 in October and extereme lows of R$135 in Septemeber and R$11 in December, with no sales at all in November. Overall, 2017 experienced the highest growth rates throughout the year.
 
+![Data Structure](img/Sales_and_Product_Growth_Rates-1.png)
+
+
 ### Review Score Analysis:
 
 The average review score is 4.1 out of a maximum score of 5, median of 5 and standard deviation of 1.35 showcasing a relatively normal distribution with most products having a high review score of 4 to 5, more than 50% of review scores being 5. The mean review score for each year individually was between 3.9 and 4.1 while the median review score is 5 for each year.
