@@ -58,44 +58,42 @@ Reference table that includes unique product id and product category name. Conta
 
 * There are no clear trends in terms of seasonality, potentially due to the surge in growth rate, once the growth rate stabilises as seen in 2018, seasonality trends may appear.
 
-Sales show huge growth rates in the first few months when the Olist E-Commerce marketplace first launched in October 2016, this may indicate a well-executed market entry strategy, and effective exploitation of an untapped market opportunity. This surge in growth rate was followed by a steady growth rate in 2017 and staganant growth in 2018. The stagnation in growth suggests that Olist may have captured most of the addressable market available to it by 2018, supporting the reasons for a large growth rate early on. However, additional data including competitor performance and customer acquisition trends would be needed to confirm whether Olist's success is due to effective exploitation of an untapped market.
+* Sales show huge growth rates in the first few months when the Olist E-Commerce marketplace first launched in October 2016, this may indicate a well-executed market entry strategy, and effective exploitation of an untapped market opportunity. This surge in growth rate was followed by a steady growth rate in 2017 and staganant growth in 2018. The stagnation in growth suggests that Olist may have captured most of the addressable market available to it by 2018, supporting the reasons for a large growth rate early on. However, additional data including competitor performance and customer acquisition trends would be needed to confirm whether Olist's success is due to effective exploitation of an untapped market.
 
 
  ![Sales Trends Dashboard](img/Sales_Trends.png)
 
 ### Product Performance:
 
-Overall, Beauty and Health had the highest amount of sales at R$1.2 million and contributed to 9.3% of total sales with nearly 10000 products sold. While the most sold product category is Bed, Bath & Table with over 11000 products sold, over R$1 million in sales and contributed to 7.9% of total sales. Other product categories with high contribution to sales were Watches at 8.9% and Sports & Leisure at 7.4%, there are a total of 72 unique product categories.
+* Overall, Beauty and Health had the highest amount of sales at R$1.2 million and contributed to 9.3% of total sales with nearly 10000 products sold. While the most sold product category is Bed, Bath & Table with over 11000 products sold, over R$1 million in sales and contributed to 7.9% of total sales. Other product categories with high contribution to sales were Watches at 8.9% and Sports & Leisure at 7.4%, there are a total of 72 unique product categories.
 
-Other products have less than 7% contribution with most of having less than 1% contribution to total sales. All products sold had very small fluctuations in percentage sales contribution over time, showcasing similar contributions to sales by year and month with no biases towards time of year. 
+* Other products have less than 7% contribution with most of having less than 1% contribution to total sales. All products sold had very small fluctuations in percentage sales contribution over time, showcasing similar contributions to sales by year and month with no biases towards time of year. 
 
-In 2016 Home Décor & Furniture was the most sold at 69 and had the highest sales (R$5817), during 2017 Bed, Bath & Tablehad the most products sold at 5252 as well as the highest sales(R$501,166). Finally, in 2018 up to August, Beauty & Health had the most sold at 5858 and the highest sales (R$757,111). 
+* In 2016 Home Décor & Furniture was the most sold at 69 and had the highest sales (R$5817), during 2017 Bed, Bath & Tablehad the most products sold at 5252 as well as the highest sales(R$501,166). Finally, in 2018 up to August, Beauty & Health had the most sold at 5858 and the highest sales (R$757,111). 
  
-The product categories with the most sales in 2016 were Home Décor & Furniture, Perfumes and Toys, in 2017 and 2018 it was Bed, Bath & Table, Beauty & Health and Watches. The product categories with the most products sold in 2016 were Home Décor & Furniture, Beauty & Health and Perfumes, in 2017 it was Bed, Bath & Table, Home Décor & Furniture and Sports & Leisure, in 2018 it was Beauty & Health, Bed, Bath & Table and Computer Accessories.
+* The product categories with the most sales in 2016 were Home Décor & Furniture, Perfumes and Toys, in 2017 and 2018 it was Bed, Bath & Table, Beauty & Health and Watches. The product categories with the most products sold in 2016 were Home Décor & Furniture, Beauty & Health and Perfumes, in 2017 it was Bed, Bath & Table, Home Décor & Furniture and Sports & Leisure, in 2018 it was Beauty & Health, Bed, Bath & Table and Computer Accessories.
 
-Overall Bed, Bath & Table, Beauty & Health, Sports & Leisure, Watches and Computer Accessories had the most sold from October 2016 to August 2018. 
+* Overall Bed, Bath & Table, Beauty & Health, Sports & Leisure, Watches and Computer Accessories had the most sold from October 2016 to August 2018. 
  
-Beauty & Health has the highest overall percentage sales contribution at 9.3% out of 72 unique product categories, with Watches at 8.9%, Bed, Bath & Table at 7.9% and Sports & Leisure at 7.4%. 
+* Beauty & Health has the highest overall percentage sales contribution at 9.3% out of 72 unique product categories, with Watches at 8.9%, Bed, Bath & Table at 7.9% and Sports & Leisure at 7.4%. 
  
-
-
 ![Product Trends Dashboard](img/Product_Trends.png)
 
 ### Review Score Analysis:
 
-The average review score is 4.1 out of a maximum score of 5, median of 5 and standard deviation of 1.35 showcasing a relatively normal distribution with most products having a high review score of 4 to 5, with more than 50% of review scores being 5. 
+* The average review score is 4.1 out of a maximum score of 5, median of 5 and standard deviation of 1.35 showcasing a relatively normal distribution with most products having a high review score of 4 to 5, with more than 50% of review scores being 5. 
 
-The mean review score for each year individually was between 3.9 and 4.1 while the median review score was 5 every year. 
+* The mean review score for each year individually was between 3.9 and 4.1 while the median review score was 5 every year. 
 
-As mentioned earlier delivery time effects review scores negatively, with a pearson's correlation coefficient of -0.33, indicating lower reviews for longer delivery times.
+* As mentioned earlier delivery time effects review scores negatively, with a pearson's correlation coefficient of -0.33, indicating lower reviews for longer delivery times.
 
 ![Review Scores Dashboard](img/Review_Scores.png)
 
-The mean estimated delivery time is 24 days, when the delivery time takes more than 28 days to arrive the median review score is 1 and the mean 2. Whereas when the delivery takes less than 21 days (lower quartile of average delivery time) to arrive which is 87% of orders, the median score is 5. 
+* The mean estimated delivery time is 24 days, when the delivery time takes more than 28 days to arrive the median review score is 1 and the mean 2. Whereas when the delivery takes less than 21 days (lower quartile of average delivery time) to arrive which is 87% of orders, the median score is 5. 
  
-When filtering for deliveries that are considered fast (arrives in less than 21 days) but is later than the estimated time the median and mean reviews score drop to 3,  And vice versa when products come sooner than estimated, despite having a 'long' delivery time (>28 days), the median review scores are higher at 4 instead of 1. 
+* When filtering for deliveries that are considered fast (arrives in less than 21 days) but is later than the estimated time the median and mean reviews score drop to 3,  And vice versa when products come sooner than estimated, despite having a 'long' delivery time (>28 days), the median review scores are higher at 4 instead of 1. 
  
-The overall results indicates that not only do late deliveries affect reviews but differences in estimated times can affect customer reviews of products.
+* The overall results indicates that not only do late deliveries affect reviews but differences in estimated times can affect customer reviews of products.
 
 ![Esimtated Time Dashboard](img/Estimated_Times.png)
 
