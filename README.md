@@ -50,13 +50,13 @@ Reference table that includes unique product id and product category name. Conta
 
 ### Sales Trends:
 
-Olist averages R$4.4 million in annual sales and nearly 37000 orders per year
+* Olist averages R$4.4 million in annual sales and nearly 37000 orders per year
 
-The average sales per month is R$577K and the average sales growth rate is 46000%
+* The average sales per month is R$577K and the average sales growth rate is 46000%
 
-Total sales per month in 2016 and 2017 shows an increasing trend over time, while in 2018 there is no clear trend.  
+* Total sales per month in 2016 and 2017 shows an increasing trend over time, while in 2018 there is no clear trend.  
 
-There are no clear trends in terms of seasonality, potentially due to the surge in growth rate, once the growth rate stabilises as seen in 2018, seasonality trends may appear.
+* There are no clear trends in terms of seasonality, potentially due to the surge in growth rate, once the growth rate stabilises as seen in 2018, seasonality trends may appear.
 
 Sales show huge growth rates in the first few months when the Olist E-Commerce marketplace first launched in October 2016, this may indicate a well-executed market entry strategy, and effective exploitation of an untapped market opportunity. This surge in growth rate was followed by a steady growth rate in 2017 and staganant growth in 2018. The stagnation in growth suggests that Olist may have captured most of the addressable market available to it by 2018, supporting the reasons for a large growth rate early on. However, additional data including competitor performance and customer acquisition trends would be needed to confirm whether Olist's success is due to effective exploitation of an untapped market.
 
