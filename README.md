@@ -87,8 +87,9 @@ Reference table that includes unique product id and product category name. Conta
 
 * As mentioned earlier delivery time effects review scores negatively, with a pearson's correlation coefficient of -0.33, indicating lower reviews for longer delivery times.
 
-![Review Score Distribution](img/Review_Score_Distribution.png)
 ![Review Scores Dashboard](img/Correlation_Heatmap.png)
+![alt text](img/Review_Score_Distribution.png)
+
 
 * The mean estimated delivery time is 24 days, when the delivery time takes more than 28 days to arrive the median review score is 1 and the mean 2. Whereas when the delivery takes less than 21 days (lower quartile of average delivery time) to arrive which is 87% of orders, the median score is 5. 
  
@@ -96,7 +97,7 @@ Reference table that includes unique product id and product category name. Conta
  
 * The overall results indicates that not only do late deliveries affect reviews but differences in estimated times can affect customer reviews of products.
 
-![Esimtated Time Dashboard](img/Estimated_Times.png)
-
+![Estimated Times](img/Estimated_Times_and_Speed.png)
+![Delivery Speed](img/Delivery_Speed.png)
 ## Recommendations
 
