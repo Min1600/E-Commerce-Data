@@ -9,14 +9,14 @@ CREATE TABLE orders(
     order_delivered_customer_date TIMESTAMP,
     order_estimated_delivery_date TIMESTAMP
 );
-CREATE TABLE order_payments(
-order_id TEXT,
-payment_type VARCHAR(20),
-payment_installments INT,
-payment_value DECIMAL(10,2),
-FOREIGN KEY (order_id) REFERENCES orders(order_id)
-);
 
+CREATE TABLE order_payments(
+    order_id TEXT,
+    payment_type VARCHAR(20),
+    payment_installments INT,
+    payment_value DECIMAL(10,2),
+    FOREIGN KEY (order_id) REFERENCES orders(order_id)
+);
 
 CREATE TABLE order_items(
     order_id TEXT,
@@ -38,10 +38,10 @@ CREATE TABLE olist_order_reviews(
 CREATE TABLE olist_products(
     product_id TEXT,
     product_category_name TEXT
-)
+);
 
 CREATE TABLE olist_customers(
     customer_id TEXT,
     customer_city TEXT,
     customer_state TEXT
-)
+);

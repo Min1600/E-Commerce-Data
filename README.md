@@ -121,3 +121,10 @@ As mentioned above, even when orders come early if the product arrived after the
 
 ## Technical Details
 
+1. Downloaded the data, in csv format then created tables in PostgresSQL to be able to import data to the tables. [PostgresSQL table creation](creating_tables.sql)
+
+2. The data is then inserted into the PostgresSQL tables to be joined. [inserting data shell script](insert_data.sh)
+
+3. Once joining all the relevant data into a single csv file it was exported to local folder. [exporting main csv file](export_to_csv.sql) [Joining tables](joins.sql)
+
+4. The csv file was imported into Jupyter Notebook where Python Pandas library is used for data cleaning.![Data cleaning](E-Commerce_data_cleaning.ipynb)
