@@ -121,24 +121,24 @@ As mentioned above, even when orders come early if the product arrived after the
 
 ## Technical Details
 
-1. Downloaded the data in csv format then created tables in PostgresSQL to import data. [PostgresSQL table creation](creating_tables.sql)
+* Downloaded the data in csv format then created tables in PostgresSQL to import data. [PostgresSQL table creation](creating_tables.sql)
 
-2. Once data is inserted into the PostgresSQL tables, the relevant tables are joined. [inserting data shell script](insert_data.sh) [Joining tables](joins.sql)
+* Once data is inserted into the PostgresSQL tables, the relevant tables are joined. [inserting data shell script](insert_data.sh) [Joining tables](joins.sql)
 
-3. Once joining all the relevant data into a single table, the table is exported as a csv [exporting main csv file](export_to_csv.sql)
+* Once joining all the relevant data into a single table, the table is exported as a csv [exporting main csv file](export_to_csv.sql)
 
-4. The csv file is imported into Jupyter Notebook where Python Pandas library is used for data cleaning. [Data cleaning](E-Commerce_data_cleaning.ipynb)
+* The csv file is imported into Jupyter Notebook where Python Pandas library is used for data cleaning. [Data cleaning](E-Commerce_data_cleaning.ipynb)
 
 
 ##  Assumptions and Caveats
 
-* Removed null values from customer delivery date, as these orders may not have been delivered or data is corrupted.
+1. Removed null values from customer delivery date, as these orders may not have been delivered or data is corrupted.
 
-* Kept orders that were cancelled as there was no null values in the data, only 7 orders were cancelled so it shouldn't effect the data.
+2. Kept orders that were cancelled as there was no null values in the data, only 7 orders were cancelled so it shouldn't effect the data.
 
-* Used 21 days as fast deliveries as the that is the lower quartile of estimated delivery time, 28 days for slow deliveries as that is the upper quartile, and used the time in between the two for average delivery time. 
+3. Used 21 days as fast deliveries as the that is the lower quartile of estimated delivery time, 28 days for slow deliveries as that is the upper quartile, and used the time in between the two for average delivery time. 
 
-* For the analysis on delivery time, estimated delivery time and reviews scores. The difference in average delivery time between earlier than estimated and later than estimated delivery times for deliveries that arrived "fast" (< 21 days) and slow (>28 days), the orders that arrived earlier than estimated had lower average delivery time and vice versa for orders that come later than estimated (have longer delivery times), which could effect the reviews score.
+4. For the analysis on delivery time, estimated delivery time and reviews scores. The difference in average delivery time between earlier than estimated and later than estimated delivery times for deliveries that arrived "fast" (< 21 days) and slow (>28 days), the orders that arrived earlier than estimated had lower average delivery time and vice versa for orders that come later than estimated (have longer delivery times), which could effect the reviews score.
 
 The average delivery time of the orders that came later than estimated time were taken and used as a benchmark. Only looking at the reviews scores of the earlier than estimated deliveries that had a higher delivery time than the average of the later than estimated deliveries to ensure overall time taken for the delivery is not effecting the reviews scores.
 
