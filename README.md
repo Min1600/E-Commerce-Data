@@ -139,11 +139,8 @@ As mentioned above, even when orders come early if the product arrived after the
 3. Used 21 days as fast deliveries as the that is the lower quartile of estimated delivery time, 28 days for slow deliveries as that is the upper quartile, and used the time in between the two for average delivery time. 
 
 4. For the analysis on delivery time, estimated delivery time and reviews scores. The difference in average delivery time between earlier than estimated and later than estimated delivery times for deliveries that arrived "fast" (< 21 days) and slow (>28 days), the orders that arrived earlier than estimated had lower average delivery time and vice versa for orders that come later than estimated (have longer delivery times), which could effect the reviews score.
-
- The average delivery time of the orders that came later than estimated time were taken and used as a benchmark. Only looking at the reviews scores of the earlier than estimated deliveries that had a higher delivery time than the average  of the later than estimated deliveries to ensure overall time taken for the delivery is not effecting the reviews scores.
-
- After checking for both the fast and slow deliveries, the median reviews scores were the same when taking into account pure delivery time. So the correlation still stands, that estimated time effects reviews score even when keeping pure  delviery time consistent. In the data and graphs I did not filter out the differences in delivery time but it is true that when delivery times come ealier than estimated average delivery time is lower vice versa for orders that come      later than estimated. 
-
- Just for clarificaion as this thought may have come into mind when reading the report. The reported median scores are the same even when taking into account differences in delivery time in the estimated time groups. 
+   The average delivery time of the orders that came later than estimated time were taken and used as a benchmark. Only looking at the reviews scores of the earlier than estimated deliveries that had a higher delivery time than the average  of the later than estimated deliveries to ensure overall time taken for the delivery is not effecting the reviews scores.
+   After checking for both the fast and slow deliveries, the median reviews scores were the same when taking into account pure delivery time. So the correlation still stands, that estimated time effects reviews score even when keeping pure  delviery time consistent. In the data and graphs I did not filter out the differences in delivery time but it is true that when delivery times come ealier than estimated average delivery time is lower vice versa for orders that come later than estimated.
+   Just for clarificaion as this thought may have come into mind when reading the report. The reported median scores are the same even when taking into account differences in delivery time in the estimated time groups. 
 
 
