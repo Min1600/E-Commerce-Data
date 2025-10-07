@@ -90,9 +90,9 @@ Reference table that includes unique product id and product category name. Conta
 ![alt text](img/Review_Score_Distribution.png)
 
 
-* Olist provides an estimated delivery time to customers for every product, the mean estimated delivery time is 24 days, when the delivery time takes more than 28 days (upper quartile of estimated delivery time) to arrive the median review score is 1 and the mean 2. Whereas when the delivery takes less than 21 days (lower quartile of estimated delivery time) to arrive which is 87% of orders, the median score is 5. 
+* Olist provides an estimated delivery time to customers for every product, the mean estimated delivery time is 24 days, when the delivery time takes more than 28 days (upper quartile of estimated delivery time) to arrive the median review score is 1 and the mean 2. Whereas when the delivery takes less than 18 days (lower quartile of estimated delivery time) to arrive which is 81% of orders, the median score is 5. 
  
-* When filtering for deliveries that are considered fast (arrives in less than 21 days) but is later than the estimated time the median and mean reviews score drop to 3,  And vice versa when products come sooner than estimated, despite having a 'long' delivery time (>28 days), the median review score is higher at 4 instead of 1. 
+* When filtering for deliveries that are considered fast (arrives in less than 18 days) but is later than the estimated time the median and mean reviews score drop to 3,  And vice versa when products come sooner than estimated, despite having a 'long' delivery time (>28 days), the median review score is higher at 4 instead of 1. 
  
 * The overall results indicates that not only do late deliveries affect reviews but differences in estimated times can affect customer reviews of products.
 
@@ -142,9 +142,9 @@ As mentioned above, even when orders come early if the product arrived after the
 
 2. Kept orders that were cancelled as there was no null values in the data, only 7 orders were cancelled so it shouldn't effect the data.
 
-3. Used 21 days as fast deliveries as the that is the lower quartile of estimated delivery time, 28 days for slow deliveries as that is the upper quartile, and used the time in between the two for average delivery time. 
+3. Used 18 days as fast deliveries as the that is the lower quartile of estimated delivery time, 28 days for slow deliveries as that is the upper quartile, and used the time in between the two for average delivery time. 
 
-4. For the analysis on delivery time, estimated delivery time and reviews scores. The difference in average delivery time between earlier than estimated and later than estimated delivery times for deliveries that arrived "fast" (< 21 days) and slow (>28 days), the orders that arrived earlier than estimated had lower average delivery time and vice versa for orders that come later than estimated (have longer delivery times), which could effect the reviews score.
+4. For the analysis on delivery time, estimated delivery time and reviews scores. The difference in average delivery time between earlier than estimated and later than estimated delivery times for deliveries that arrived "fast" (< 18 days) and slow (>28 days), the orders that arrived earlier than estimated had lower average delivery time and vice versa for orders that come later than estimated (have longer delivery times), which could effect the reviews score.
 
    The average delivery time of the orders that came later than estimated time were taken and used as a benchmark. Only looking at the reviews scores of the earlier than estimated deliveries that had a higher delivery time than the average  of the later than estimated deliveries to ensure overall time taken for the delivery is not effecting the reviews scores.
 
