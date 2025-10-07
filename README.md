@@ -129,6 +129,12 @@ As mentioned above, even when orders come early if the product arrived after the
 
 * The csv file is imported into Jupyter Notebook where Python Pandas library is used for data cleaning. [Data cleaning](E-Commerce_data_cleaning.ipynb)
 
+* Once data is cleaned, export the data into a different csv file keeping the raw uncleaned data file unchanged. The new cleaned file is used for analysis.
+
+* Import newly cleaned data into Jupyter Notebook for analysis and rough data visualisations using Python and libraries such as Pandas, Numpy and Matplotlib. 
+
+* Created tables with refined data that are then exportedinto excel files to be used in PowerBI for final data visualisations.
+
 
 ##  Assumptions and Caveats
 
