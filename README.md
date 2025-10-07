@@ -20,7 +20,7 @@ This project looks into E-Commerce data provided by [Olist store](https://www.ol
 
 *Product Performance:*
 
-The five products with the most sales are: 1. Beauty & Health (9.4% of total sales), 2. Watches(8.9% of total sales), 3. Bed, Bath and Table (7.9% of total sales), 4. Sports & Leisure (7.3% of total sales), 5. Computer & Accessroies (6.8% of total sales). All products sold had very small fluctuations in percentage sales contribution over time and no biases towards time of year. Two other notable product categories are Home Décor & Furniture and Household Items which have a lot of products sold (more than Watches) but have lower sales as the prices of these items are low. Companies can focus on expanding and optimizing production of these popular products, to increase sales.
+The five products with the most sales are: 1. Beauty & Health (9.4% of total sales), 2. Watches(8.9% of total sales), 3. Bed, Bath and Table (7.9% of total sales), 4. Sports & Leisure (7.3% of total sales), 5. Computer & Accessroies (6.8% of total sales). All products sold had very small fluctuations in percentage sales contribution over time and no biases towards time of year. Two other notable product categories are Home Décor & Furniture and Household Items which have a lot of products sold (more than Watches) but have lower sales as the prices of these items are low. Focusing on expanding and optimizing production of these popular products is important to ensure sales and consumers increase without efficiently.
 
 *Review Scores Analysis:*
 
