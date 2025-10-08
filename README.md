@@ -68,13 +68,13 @@ Reference table that includes unique product id and product category name. Conta
 
 * Bed, Bath & Table had the highest amount of products sold with over 11000, over R$1 million in sales and contributed to 7.9% of total sales. 
 
-*Other product categories with high contribution to sales were Watches at 8.9% and Sports & Leisure at 7.3%, there are a total of 72 unique product categories.
+* Other product categories with high contribution to sales were Watches at 8.9% and Sports & Leisure at 7.3%, there are a total of 72 unique product categories.
 
 * Other products have less than 7% contribution with most having less than 1% contribution to total sales. All products sold had very small fluctuations in percentage sales contribution over time, showcasing similar contributions to sales by year and month with no biases towards time of year. 
 
 * In 2016 Home Décor & Furniture was the most sold at 69 and had the highest sales (R$5817), during 2017 Bed, Bath & Tablehad the most products sold at 5252 as well as the highest sales(R$501,166). Finally, in 2018 up to August, Beauty & Health had the most sold at 5858 and the highest sales (R$757,111). 
  
-* The most popular products for sales and number of products sold are Beauty & Health, Bed, Bath & Table, Computer & Accessories, Home Decor & Furniture, Sports & Leisure, Watches & Gifts and Household items. These seven categories are consistently in the top sales and products sold with no trends in terms of time of year.
+* The most popular products for sales and number of products sold are Beauty & Health, Bed, Bath & Table, Computer & Accessories, Home Decor & Furniture, Sports & Leisure, Watches & Gifts and Household items. These seven categories are consistently in the top sales and products sold with no biases towards time of year.
  
 ![Product Trends Dashboard](img/Product_Trends.png)
 
