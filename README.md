@@ -1,4 +1,4 @@
-# Olist E-Commerce Salesc and Performance Analysis (2016-2018)
+# Olist E-Commerce Sales and Performance Analysis (2016-2018)
 
 ## Background and Overview
 
